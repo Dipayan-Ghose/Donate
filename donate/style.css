@@ -102,6 +102,10 @@
         color: black;
 
     }
+    .boro{
+        font-size: 40px;
+        
+    }
 
     #food {
         background-color: lightblue;
@@ -137,5 +141,59 @@
         width: 350px;
         margin: 10px;
         padding: 10px;
+
+    }
+
+    .flood {
+        display: flex;
+        justify-content: space-evenly;
+        ;
+    }
+
+    .half {
+        width: 50%;
+        padding: 5%;
+        margin-left: 5%;
+
+
+    }
+
+    .half img {
+        width: 95%
+    }
+
+.email{
+    background-image: url(images/pink.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-position: center;
+    padding-top: 5%;
+
+}
+ 
+
+
+.sub{
+    color:white;
+    background-color:rgb(188, 41, 41);
+    border-radius: 5px;
+    border-width: 10px;
+    border-color: rgb(188, 41, 41);
+}
+
+    footer {
+        background-color: rgb(23, 22, 22);
+        text-align: center;
+    }
+
+    #red {
+        color: rgb(197, 78, 78);
+        padding-top: 5%;
+        font-style: italic;
+    }
+
+    #white {
+        color: white;
+        padding-bottom: 2%;
 
     }
