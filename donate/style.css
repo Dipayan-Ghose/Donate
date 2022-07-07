@@ -37,6 +37,7 @@
         background-image: url("images/donation13.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
+
     }
 
     .donate {
@@ -54,20 +55,87 @@
 
     .flex {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .box {
         border-radius: 5%;
         font-size: 25px;
-        padding: 20px;
-        background-color: rgb(247, 247, 246);
+        padding: 1%;
+        background-color: rgb(244, 243, 239);
     }
 
-    .border{
-        border-style:solid;
+    .border {
+        border-style: solid;
         border-color: orangered;
         color: orangered;
-        background-color: rgb(237, 198, 184);
+        background-color: rgb(231, 217, 217);
     }
 
+    .ammount {
+        margin: 50px;
+    }
+
+    hr {
+        border-color: wheat;
+        border-radius: 5px;
+        height: 0px;
+        width: 70%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .para {
+        color: black;
+
+    }
+
+    h2 {
+        color: black;
+
+    }
+
+    #food {
+        background-color: lightblue;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-right: 2%;
+        margin-left: 60%;
+
+    }
+
+    #shelter {
+        background-color: lightpink;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-right: 2%;
+
+
+    }
+
+    #education {
+        background-color: rgb(232, 209, 200);
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-right: 60%;
+
+    }
+
+    .soja {
+        height: 70px;
+        width: 350px;
+        margin: 10px;
+        padding: 10px;
+
+    }
